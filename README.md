@@ -4,15 +4,20 @@
 
 ## Descripción
 
+Una vez que conocemos los conceptos básicos de una tecnología, lo mejor es comenzar a poner en práctica. En este taller estaremos desarrollando un portafolio web para su uso personal
+
 ## Requisitos
+
+- Una cuenta en Github
+- Visual Studio Code instalado
 
 ## Temas
 
-### Conociendo git
+### Maquetando con HTML
 
-### Conociendo git
+### Diseñando con CSS
 
-### Conociendo git
+### Proyecto de Portafolio
 
 ## Más allá de este material
 
@@ -20,6 +25,6 @@
 
 <div align="center">
 
-Hecho con ❤️ por [Miguel R. Ávila](https://github.com/migueravila).
+Hecho con ❤️ por [Miguel R. Ávila](https://github.com/migueravila), Antonio Cituk, Fernan Cetina y Teo Dawn.
 
 </div>
