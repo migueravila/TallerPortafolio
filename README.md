@@ -6,6 +6,6 @@
 
 <div align="center">
 
-    Hecho con ❤️ por [Miguel R. Ávila](https://github.com/migueravila).
+Hecho con ❤️ por [Miguel R. Ávila](https://github.com/migueravila).
 
 </div>
