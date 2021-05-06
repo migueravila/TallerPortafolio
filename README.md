@@ -17,14 +17,14 @@ Una vez que conocemos los conceptos básicos de una tecnología, lo mejor es com
 
 ### Diseñando con CSS
 
-### Proyecto de Portafolio
+### Subirlo a Github!
 
 ## Más allá de este material
 
-## [👉 Siguiente](Page1.md)
+## [👉 Siguiente](pages/page1.md)
 
 <div align="center">
 
-Hecho con ❤️ por [Miguel R. Ávila](https://github.com/migueravila), Antonio Cituk, Fernan Cetina y Teo Dawn.
+Hecho con ❤️ por [Miguel R. Ávila](https://github.com/migueravila), [Antonio Cituk](https://github.com/Antonio-Cituk), [Fernan Cetina](https://github.com/FernanCetinaE) y [Teo Dawn](https://github.com/Teodoro-lab).
 
 </div>
