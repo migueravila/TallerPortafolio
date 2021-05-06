@@ -1,2 +1,3 @@
-# TallerPortafolio
-🕸️ Repositorio para el taller de 'Crea tu portafolio y subelo a github'
+<p align="center">
+    <img align="center" src="https://github.com/migueravila/tallerportafolio/blob/master/assets/head.png" alt="head" />
+</p>
