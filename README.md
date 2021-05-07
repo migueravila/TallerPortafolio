@@ -13,13 +13,10 @@ Una vez que conocemos los conceptos básicos de una tecnología, lo mejor es com
 
 ## Temas
 
-### Maquetando con HTML
-
-### Diseñando con CSS
-
-### Subirlo a Github!
-
-## Más allá de este material
+- [Maquetando con HTML](pages/page1.md)
+- [Diseñando con CSS](pages/page2.md)
+- [Subirlo a Github](pages/page3.md)
+- [Nuestro reto](pages/page4.md)
 
 ## [👉 Siguiente](pages/page1.md)
 
