@@ -116,4 +116,16 @@
 </html>
 ```
 
+### ✉️ Links y mail!
+
+```html
+<div class="footer">
+  Puedes enviarme un correo a
+  <a href="mailto:migueravila@pm.me" class="link">migueravila@pm.me</a>, puedes
+  encontrarme como
+  <a href="https://github.com/migueravila" class="link">migueravila</a>
+  en Github.
+</div>
+```
+
 ## [Anterior 👈](../README.md) - [👉 Siguiente](page2.md)
