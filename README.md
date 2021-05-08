@@ -4,7 +4,7 @@
 
 ## Descripción
 
-Una vez que conocemos los conceptos básicos de una tecnología, lo mejor es comenzar a poner en práctica. En este taller estaremos desarrollando un portafolio web para su uso personal
+Una vez que conocemos los conceptos básicos de una tecnología, lo mejor es comenzar a poner en práctica. En este taller estaremos desarrollando un portafolio web para su uso personal. El principal objetivo es que obtengan una experiencia real construyendo algo real para ustedes mismos!
 
 ## Requisitos
 
