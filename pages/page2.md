@@ -16,7 +16,27 @@ body {
 }
 ```
 
-### 📏 Variables de css
+### 📏 Variables de
+
+Uno de los conceptos más increibles que han introducido últimamente a CSS son las variables. Son pedacitos de información que podemos guardar con cierto nombre para poder invocarlo nuevamente más abajo y de esa forma no repetirnos muchas veces. Estas se usan declarando la siguiente estructura:
+
+```css
+:root {
+  --nombreDeLaVariable: Valor de la variable;
+}
+```
+
+Y nosotros las aprovecharemos para almacenar los valores de nuestros colores:
+
+```css
+:root {
+  --bg: #2d2a32;
+  --fg: #ffeddf;
+  --buttonbg: #ffeddf;
+  --primary: #4568dc;
+  --secondary: #b06ab3;
+}
+```
 
 ### 🤲 Reset CSS
 
