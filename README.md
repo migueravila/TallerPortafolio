@@ -18,6 +18,10 @@ Una vez que conocemos los conceptos básicos de una tecnología, lo mejor es com
 - [Subirlo a Github](pages/page3.md)
 - [Nuestro reto](pages/page4.md)
 
+## Más alla de este material
+
+- [Google Fonts](https://fonts.google.com/)
+
 ## [👉 Siguiente](pages/page1.md)
 
 <div align="center">
