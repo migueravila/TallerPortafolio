@@ -211,7 +211,19 @@ Primero debemos identificar cuales son los textos que usamos y nos damos cuenta 
 
 ### 🐙 Breve introducción a animaciones
 
-Dentro de css existen las
+Dentro de css existen las **pseudoclases** las cuales son usadas para definir los estilos en un estado determinado de un objeto. Podemos verlas en acción cuando pasamos nuestro cursor sobre un botón y este cambia de tamaño o de color. Gracias a las pseudoclases podemos modificar un elemento cuando:
+
+- El cursor esta sobre de el
+- Cuando el usuario tiene focus en el
+- Hemos o no visitado un link
+
+Las pseudoclases son usadas de la siguiente forma:
+
+```css
+selector:pseudo-class {
+  property: value;
+}
+```
 
 ### 🔗 Reset de links
 
