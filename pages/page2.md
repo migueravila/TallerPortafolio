@@ -177,6 +177,38 @@ Ese es el contenedor de nuestra foto, pero ahora necesitamos manejar a nuestra f
 
 Primero debemos identificar cuales son los textos que usamos y nos damos cuenta de que hay 4 diferentes tipos de textos. Nuestro **saludo inicial**, los **subtitulos**, los **parrafos** y el **footer**.
 
+```css
+.greeting {
+  margin-top: 60px;
+  font-size: 32px;
+  font-weight: bold;
+}
+```
+
+```css
+.subtitle {
+  margin-top: 25px;
+  margin-bottom: 10px;
+  font-size: 20px;
+}
+```
+
+```css
+.text {
+  font-size: 20px;
+  font-weight: 300;
+  margin-top: 30px;
+  line-height: 1.8;
+}
+```
+
+```css
+.footer {
+  margin-top: 50px;
+  font-size: 16px;
+}
+```
+
 ### 🐙 Breve introducción a animaciones
 
 ### 🔗 Reset de links
