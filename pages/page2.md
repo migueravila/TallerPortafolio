@@ -148,7 +148,34 @@ Todo esto para que nuestro texto se vea limpio y dejemos buenos espacios en blan
 
 ### 👤 Nuestra foto de perfil
 
+Para la foto de perfil tendremos que comenzar a hacer algunos trucos interesantes, y las dos nuevas propiedas que usaremos serán `overflow` `object-fit`. El primero nos ayuda para ocultar los elementos que salgan de un margen establecido y el segundo nos ayuda a configurar como mostrar esos elementos dentro del margen.
+
+```css
+.photo {
+  width: 50px;
+  height: 50px;
+
+  border-radius: 50%;
+  margin: 10px;
+  box-shadow: 10px 4px 10px rgba(0, 0, 0, 0.35);
+
+  overflow: hidden;
+}
+```
+
+Ese es el contenedor de nuestra foto, pero ahora necesitamos manejar a nuestra foto en si:
+
+```css
+.photo img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+```
+
 ### 📖 Titulos y textos
+
+Primero debemos identificar cuales son los textos que usamos y nos damos cuenta de que hay 4 diferentes tipos de textos. Nuestro **saludo inicial**, los **subtitulos**, los **parrafos** y el **footer**.
 
 ### 🐙 Breve introducción a animaciones
 
