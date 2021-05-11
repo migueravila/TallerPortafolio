@@ -22,6 +22,7 @@ Una vez que conocemos los conceptos básicos de una tecnología, lo mejor es com
 
 - [Google Fonts](https://fonts.google.com/)
 - [Gradients](https://uigradients.com/)
+- []()
 
 ## [👉 Siguiente](pages/page1.md)
 
