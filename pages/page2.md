@@ -82,6 +82,58 @@ body {
 
 ### 🪧 Una tarjeta bonita
 
+Aqui usaremos nuestra clase `card` y lo primero que debemos hacer es otorgarle un color de fondo y añadiremos una nueva propiedad a nuestro repertorio, el `box-shadow`. El cual funciona de la siguiente manera:
+
+```css
+selector {
+  box-shadow: posicionX posicionY BlurRadius Color;
+}
+```
+
+Donde la **posicionX** representa su posición en X con respecto al objeto, la **posicionY** lo mismo pero en el eje Y y el **BlurRadius** el nivel de difuminado de el **color** elegido. Y nosotros lo usaremos de la siguiente forma:
+
+```css
+.card {
+  background-color: var(--bg);
+  box-shadow: 10px 20px 20px rgba(0, 0, 0, 0.35);
+}
+```
+
+Ahora ocuparemos las propiedades de `margin` y `padding` de la siguiente forma:
+
+```css
+.card {
+  margin: 2vh auto;
+  padding: 30px;
+  width: 94vw;
+}
+```
+
+Esto nos dará como resultado que nuestra tarjeta se posicione **2**% abajo de la altura de nuestra pantalla y se centrará **automaticamente** en el ancho. El padding nos dará aún más espacio para que se vea mejor en los contornos. Y finalmente la propiedad `width` nos mostrará la tarjeta con un ancho total al 94% de nuestra pantalla.
+
+Ya por último usaremos una nueva propiedad muy cool para el diseño, el `border-radius` el cual nos permite redondear las esquinas del elemento que seleccionemos:
+
+```css
+.card {
+  border-radius: 5px;
+}
+```
+
+Por lo que al final nuestro código será:
+
+```css
+.card {
+  background-color: var(--bg);
+  box-shadow: 10px 20px 20px rgba(0, 0, 0, 0.35);
+
+  margin: 2vh auto;
+  padding: 30px;
+  width: 94vw;
+
+  border-radius: 5px;
+}
+```
+
 ### 📦 Un contenedor de texto
 
 ### 👤 Nuestra foto de perfil
@@ -93,5 +145,7 @@ body {
 ### 🔗 Reset de links
 
 ### 📱 Breve vistazo a responsive design
+
+Para que nuestras páginas logren verse en todos los dis
 
 ## [Anterior 👈](page1.md) - [👉 Siguiente](page3.md)
