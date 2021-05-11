@@ -225,6 +225,42 @@ selector:pseudo-class {
 }
 ```
 
+Nosotros nos centraremos en la pseudoclase `hover` la que nos permite modificar la apariencia del elemento cuando el cursor se encuentra arriba de el.
+
+Primero crearemos una clase para todos los elementos que queremos animar de esta forma:
+
+```css
+.accent {
+  background-color: #ffeddf10;
+  padding: 10px;
+  border-radius: 5px;
+}
+```
+
+Esto le dará un muy buen aspecto a nuestros titulos y subtitulos. Ahora comenzamos a usar la pseudoclase:
+
+```css
+.accent:hover {
+  color: var(--bg);
+  background: linear-gradient(
+    to right,
+    var(--secondary),
+    var(--primary)
+  );
+}
+}
+```
+
+Esto nos dará un bonito efecto al momento de colocar nuestro cursor arriba. Pero ahora veremos un truco genial para que nuestras animaciones se sientan fluidas:
+
+```css
+.accent {
+  transition: 0.2s ease-in-out;
+}
+```
+
+La propiedad transition recibe
+
 ### 🔗 Reset de links
 
 ### 📱 Breve vistazo a responsive design
