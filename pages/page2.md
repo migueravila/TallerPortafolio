@@ -136,6 +136,16 @@ Por lo que al final nuestro código será:
 
 ### 📦 Un contenedor de texto
 
+Ahora crearemos un pequeño contenedor para todo nuestro texto. Solamente usaremos la propiedad `padding`:
+
+```css
+.container {
+  padding: 20px 150px;
+}
+```
+
+Todo esto para que nuestro texto se vea limpio y dejemos buenos espacios en blanco!
+
 ### 👤 Nuestra foto de perfil
 
 ### 📖 Titulos y textos
@@ -146,6 +156,6 @@ Por lo que al final nuestro código será:
 
 ### 📱 Breve vistazo a responsive design
 
-Para que nuestras páginas logren verse en todos los dis
+Para que nuestras páginas logren verse en todos los dispositivos desde las que las abra, necesitamos usar unas propiedades especiales llamadas `media-queries`
 
 ## [Anterior 👈](page1.md) - [👉 Siguiente](page3.md)
