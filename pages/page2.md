@@ -211,6 +211,8 @@ Primero debemos identificar cuales son los textos que usamos y nos damos cuenta 
 
 ### 🐙 Breve introducción a animaciones
 
+Dentro de css existen las
+
 ### 🔗 Reset de links
 
 ### 📱 Breve vistazo a responsive design
