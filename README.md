@@ -2,27 +2,30 @@
     <img align="center" src="https://github.com/migueravila/TallerPortafolio/blob/main/assets/head.png" alt="head" />
 </p>
 
-## Descripción
+## 📖 Descripción
 
 Una vez que conocemos los conceptos básicos de una tecnología, lo mejor es comenzar a poner en práctica. En este taller estaremos desarrollando un portafolio web para su uso personal. El principal objetivo es que obtengan una experiencia real construyendo algo real para ustedes mismos!
 
-## Requisitos
+## 💫 Requisitos
 
 - Una cuenta en Github
 - Visual Studio Code instalado
 
-## Temas
+## 🏷️ Temas
 
 - [Maquetando con HTML](pages/page1.md)
 - [Diseñando con CSS](pages/page2.md)
 - [Subirlo a Github](pages/page3.md)
-- [Nuestro reto](pages/page4.md)
 
-## Más alla de este material
+## 🌟 Más alla de este material
+
+### 🧰 Documentación y herramientas:
 
 - [Google Fonts](https://fonts.google.com/)
 - [Gradients](https://uigradients.com/)
 - [MDN](https://developer.mozilla.org/en-US/)
+
+### 🍱 Cursos!
 
 - [Curso de Desarrollo web](https://www.udemy.com/course/design-and-develop-a-killer-website-with-html5-and-css3/)
 - [Curso de CSS avanzado](https://www.udemy.com/course/advanced-css-and-sass/)
