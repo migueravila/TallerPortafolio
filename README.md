@@ -24,6 +24,11 @@ Una vez que conocemos los conceptos básicos de una tecnología, lo mejor es com
 - [Gradients](https://uigradients.com/)
 - [MDN](https://developer.mozilla.org/en-US/)
 
+- [Curso de Desarrollo web](https://www.udemy.com/course/design-and-develop-a-killer-website-with-html5-and-css3/)
+- [Curso de CSS avanzado](https://www.udemy.com/course/advanced-css-and-sass/)
+- [Curso de Javascript](https://www.udemy.com/course/the-complete-javascript-course/)
+- [Curso de 20 proyectos web](https://www.udemy.com/course/web-projects-with-vanilla-javascript/)
+
 ## [👉 Siguiente](pages/page1.md)
 
 <div align="center">
