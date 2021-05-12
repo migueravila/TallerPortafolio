@@ -263,8 +263,51 @@ La propiedad `transition` nos permite insertar dos valores: la cantidad de tiemp
 
 ### 🔗 Reset de links
 
+El reseteo de links es una práctica muy sencilla pero que nos dará una mejor apariencia en nuestros links en texto, aqui volveremos a usar el concepto de pseudoclases pero cuando los links han sido o no visitados:
+
+```css
+.link,
+link:visited,
+link:link {
+  color: var(--secondary);
+}
+```
+
 ### 📱 Breve vistazo a responsive design
 
-Para que nuestras páginas logren verse en todos los dispositivos desde las que las abra, necesitamos usar unas propiedades especiales llamadas `media-queries`
+Para que nuestras páginas logren verse en todos los dispositivos desde las que las abra, necesitamos usar unas propiedades especiales llamadas `media-queries`.
+
+```css
+@media only screen and (max-width: 56.25em) {
+  .card {
+    padding: 50px;
+    width: 82vw;
+    margin: 2vh auto;
+  }
+  .container {
+    padding: 20px 50px;
+  }
+}
+
+/* Phone  */
+@media only screen and (max-width: 37.5em) {
+  .card {
+    padding: 50px;
+    width: 70vw;
+    margin: 2vh auto;
+  }
+  .container {
+    padding: 20px 5px;
+  }
+
+  .greeting {
+    font-size: 20px;
+  }
+
+  .text {
+    font-size: 15px;
+  }
+}
+```
 
 ## [Anterior 👈](page1.md) - [👉 Siguiente](page3.md)
