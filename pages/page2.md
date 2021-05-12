@@ -259,7 +259,7 @@ Esto nos dará un bonito efecto al momento de colocar nuestro cursor arriba. Per
 }
 ```
 
-La propiedad transition recibe
+La propiedad `transition` nos permite insertar dos valores: la cantidad de tiempo que dura la animación y también como se comportará.
 
 ### 🔗 Reset de links
 
