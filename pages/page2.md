@@ -277,7 +277,24 @@ link:link {
 
 Para que nuestras páginas logren verse en todos los dispositivos desde las que las abra, necesitamos usar unas propiedades especiales llamadas `media-queries`.
 
+Los media queries pueden ser vistos como estructuras de condición, cuando cierta condición se cumple entonces el estilo de algunos elementos cambiará. Los usaremos muy brevemente durante este pequeño taller pero las estructuras más importantes de código que deben conocer son las siguientes:
+
 ```css
+/* Tablet  */
+@media only screen and (max-width: 56.25em) {
+}
+
+/* Telefono  */
+@media only screen and (max-width: 37.5em) {
+}
+```
+
+Arriba pueden ver las dos estructuras (la primera se aplicará cuando la pantalla sea del tamaño de una tablet y la segunda cuando sea del tamañao de un telefono)
+
+Y la forma en la cual lo usamos es agregando los selectores y las propiedades dentro de estas estructuras:
+
+```css
+/* Tablet  */
 @media only screen and (max-width: 56.25em) {
   .card {
     padding: 50px;
@@ -288,8 +305,12 @@ Para que nuestras páginas logren verse en todos los dispositivos desde las que 
     padding: 20px 50px;
   }
 }
+```
 
-/* Phone  */
+Arriba nos indica que dentro de la clase `card` y `container` habrán cambios cuando nuestra pantalla sea del tamaño de una tablet. Nuestra **card** cambiará su padding, width y margin. Mientras que el **container** cambiará su padding.
+
+```css
+/* Telefono  */
 @media only screen and (max-width: 37.5em) {
   .card {
     padding: 50px;
@@ -309,5 +330,7 @@ Para que nuestras páginas logren verse en todos los dispositivos desde las que 
   }
 }
 ```
+
+En el tamaño del telefono necesitaremos muchos más cambios para que nuestros textos se vean bien.
 
 ## [Anterior 👈](page1.md) - [👉 Siguiente](page3.md)
